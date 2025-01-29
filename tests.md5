@@ -1,0 +1,2 @@
+# Add basecalling
+./dorado-0.9.1-linux-x64/bin/dorado basecaller sup,5mCG_5hmCG,6mA,4mC /mnt/d/SCRACH/pod5/FAX50596_f8847863_ffa87fb4_0.pod5 > calls_0.bam  
