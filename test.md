@@ -8,7 +8,7 @@ we ignore 5hmC like this seems either that or 4mc 5mc to try later **TODO**
 [2025-01-29 22:35:45.020] [info] > Simplex reads filtered: 47  
 [2025-01-29 22:35:45.020] [info] > Basecalled @ Samples/s: 3.543277e+05  
 [2025-01-29 22:35:45.218] [info] > Finished  
-`samtools fastq -T "*" calls_0.bam  > calls_0.fq` 
+`samtools fastq -T "*" calls_0.bam  > calls_0.fq`  
 okidoki  
 `seqtk seq -L 1000 calls_0.fq > calls_0_lt_1000.fq`  
 `hifiasm --ont calls_0_lt_1000.fq -t 4 -o TP1`  
