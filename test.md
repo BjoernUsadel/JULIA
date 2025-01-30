@@ -12,7 +12,18 @@ we ignore 5hmC like this seems either that or 4mc 5mc to try later **TODO**
 okidoki 
 `seqtk seq -L 1000 calls_0.fq > calls_0_lt_1000.fq`  
 `hifiasm --ont calls_0_lt_1000.fq -t 4 -o TP1`  
-AHHH FCKKKKK
+AHHH FCKKKKK  
+ `./dorado-0.9.1-linux-x64/bin/dorado basecaller sup,4mC_5mC,6mA /mnt/d/SCRACH/pod5/FAX50596_f8847863_ffa87fb4_1.pod5 > calls_1.bam` 
+ [2025-01-30 10:46:04.046] [info] cuda:0 using chunk size 12288, batch size 32  
+[2025-01-30 10:46:04.227] [info] cuda:0 using chunk size 6144, batch size 32  
+[2025-01-30 11:44:54.389] [info] > Finished in (ms): 3529976  
+[2025-01-30 11:44:54.390] [info] > Simplex reads basecalled: 28654  
+[2025-01-30 11:44:54.390] [info] > Simplex reads filtered: 26  
+[2025-01-30 11:44:54.390] [info] > Basecalled @ Samples/s: 7.162525e+05  
+[2025-01-30 11:44:54.471] [info] > Finished  
+
+
+
 
 
 
