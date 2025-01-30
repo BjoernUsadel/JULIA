@@ -24,6 +24,19 @@ AHHH FCKKKKK
 [2025-01-30 11:44:54.471] [info] > Finished  
 `samtools fastq -T "*" calls_1.bam  > calls_1.fq`  
 `seqkit seq calls_1.fq -m 100 -Q 14  > calls_1_m100_q14.fq`
+`./dorado-0.9.1-linux-x64/bin/dorado basecaller sup,4mC_5mC,6mA /mnt/d/SCRACH/pod5/FAX50596_f8847863_ffa87fb4_2.pod5 > calls_2.bam` 
+[2025-01-30 11:55:41.027] [info] cuda:0 using chunk size 12288, batch size 32 
+[2025-01-30 11:55:41.207] [info] cuda:0 using chunk size 6144, batch size 32 
+[2025-01-30 12:31:59.371] [info] > Finished in (ms): 2177985 
+[2025-01-30 12:31:59.372] [info] > Simplex reads basecalled: 29075 
+[2025-01-30 12:31:59.372] [info] > Simplex reads filtered: 27 
+[2025-01-30 12:31:59.373] [info] > Basecalled @ Samples/s: 8.801333e+05 
+[2025-01-30 12:31:59.489] [info] > Finished
+
+some broken pods
+./dorado-0.9.1-linux-x64/bin/dorado basecaller sup,4mC_5mC,6mA /mnt/d/SCRACH/Alderaan/20241001_1934_MN19744_FAX48832_c7793116/pod5/FAX48832_c7793116_9c6879b9_9.pod5 > calls_ALDERAAN_9.bam
+
+
 
 
 
